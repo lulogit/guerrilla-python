@@ -105,7 +105,7 @@ html_code = js.document.body.innerHTML
 - Or just use the poweful CSS selector of HTML
 ```python
 def links(selector='a'):
-	'''
+    '''
     Get all links (<a> tag) in a page
     '''
     return [
@@ -171,7 +171,7 @@ The book detail pages, contain a table http://books.toscrape.com/catalogue/found
 
 ```python
 def load_table(html):
-	'''
+    '''
     load a html table from a html code
     
     outputs a pandas dataframe
